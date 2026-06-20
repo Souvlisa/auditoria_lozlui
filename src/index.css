@@ -1,0 +1,87 @@
+@import "tailwindcss";
+
+.markdown-content :is(h1, h2, h3, h4, h5) {
+  @apply text-slate-900 font-bold mt-6 mb-4;
+}
+
+.markdown-content h1 {
+  @apply text-3xl mb-6;
+}
+
+.markdown-content h2 {
+  @apply text-2xl mb-5;
+}
+
+.markdown-content h3 {
+  @apply text-xl mb-4;
+}
+
+.markdown-content p {
+  @apply leading-8 text-slate-700 mb-4;
+}
+
+.markdown-content ul,
+.markdown-content ol {
+  @apply ml-6 mb-4;
+}
+
+.markdown-content li {
+  @apply mb-2 leading-7;
+}
+
+.markdown-content table {
+  @apply w-full border-separate border-spacing-0 my-6 text-left overflow-hidden shadow-sm rounded-2xl;
+}
+
+.markdown-content thead {
+  @apply bg-slate-100;
+}
+
+.markdown-content th,
+.markdown-content td {
+  @apply border border-slate-300 p-3 align-top;
+}
+
+.markdown-content th {
+  @apply bg-slate-100 font-semibold text-slate-900;
+}
+
+.markdown-content th:first-child {
+  @apply rounded-tl-2xl;
+}
+
+.markdown-content th:last-child {
+  @apply rounded-tr-2xl;
+}
+
+.markdown-content tbody tr:last-child td:first-child {
+  @apply rounded-bl-2xl;
+}
+
+.markdown-content tbody tr:last-child td:last-child {
+  @apply rounded-br-2xl;
+}
+
+.markdown-content tbody tr:nth-child(even) {
+  @apply bg-slate-50;
+}
+
+.markdown-content tbody tr:hover {
+  @apply bg-slate-100/70;
+}
+
+.markdown-content td {
+  @apply text-slate-700;
+}
+
+.markdown-content blockquote {
+  @apply border-l-4 border-slate-300 pl-4 italic text-slate-600 my-4;
+}
+
+.markdown-content strong {
+  @apply font-semibold text-slate-900;
+}
+
+.markdown-content em {
+  @apply italic text-slate-800;
+}
