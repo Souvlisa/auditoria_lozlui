@@ -12,8 +12,8 @@ import Recuperacion from './components/Recuperacion'
 function App() {
   const sections = [
     { key: 'resumen', label: 'Resumen', component: Resumen },
-    { key: 'sqli', label: 'SQL Injection', component: SQLi },
-    { key: 'xss', label: 'Cross-Site Scripting', component: XSS },
+    { key: 'sqli', label: 'Inyección SQL', component: SQLi },
+    { key: 'xss', label: 'XSS (Reflected)', component: XSS },
     { key: 'comandos', label: 'Inyección de Comandos', component: Comandos },
     { key: 'activos', label: 'Activos', component: Activos },
     { key: 'matriz', label: 'Matriz de Riesgos', component: Matriz },
