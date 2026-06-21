@@ -1,6 +1,5 @@
 # Análisis de Vulnerabilidad: Inyección SQL (SQLi)
 
-![SQLi](img_rodcam/sqli_rodcam.png)
 <div style="text-align:justify">
 
 **Contexto:** Reporte de seguridad para el proyecto de evaluación.<br>
