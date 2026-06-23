@@ -1,5 +1,26 @@
 @import "tailwindcss";
 
+/* Font families from Google Fonts: Inter (body), Syne (headings), JetBrains Mono (monospace alerts) */
+:root {
+  --font-sans: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+  --font-heading: 'Syne', var(--font-sans);
+  --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, 'Roboto Mono', monospace;
+}
+
+html, body {
+  font-family: var(--font-sans);
+}
+
+/* Headings use Syne at weight 500 */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  font-weight: 500;
+}
+
+.sys-mono, .mono-font, .system-alert {
+  font-family: var(--font-mono);
+}
+
 .markdown-content :is(h1, h2, h3, h4, h5) {
   @apply text-slate-900 font-bold mt-6 mb-4;
 }
