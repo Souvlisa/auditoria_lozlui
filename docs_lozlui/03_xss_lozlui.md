@@ -9,6 +9,8 @@
 
 ![Evidencia XSS](img_lozlui/xss_lozlui.png)
 
+*(Captura de pantalla mostrando la ejecución de un script emergente en el navegador, producto de la inyección de código malicioso en la URL del portal).*
+
 ---
 
 ## 2. Por qué funciona la vulnerabilidad (Explicación técnica)

@@ -9,6 +9,8 @@
 
 ![SQLi](img_lozlui/sqli_lozlui.png)
 
+*(Captura que demuestra el volcado no autorizado de la base de datos al manipular el campo de búsqueda).*
+
 ---
 
 ## 2. Por qué funciona la vulnerabilidad
