@@ -1,12 +1,11 @@
 import { AlertTriangle } from 'lucide-react'
 import MarkdownRenderer from './MarkdownRenderer'
 import md from '../../docs_lozlui/03_xss_lozlui.md?raw'
-import sqliImage from '../../docs_lozlui/img_lozlui/xss_lozlui.png'
+import xss_img from '../../docs_lozlui/img_lozlui/xss_lozlui.png'
 
 
 export default function XSS() {
-  const contentWithImage = md.replace('img_lozlui/xss_lozlui.png', sqliImage);
-
+  const contentWithImage = md.replace('img_lozlui/xss_lozlui.png', xss_img);
   return (
     <section className="w-full animate-in">
       <div className="flex items-center gap-3 mb-6">
