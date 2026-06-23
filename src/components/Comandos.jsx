@@ -12,7 +12,7 @@ export default function Comandos() {
         <h1 className="text-3xl font-bold text-slate-900">Inyección de Comandos</h1>
       </div>
 
-      <div className="bg-white rounded-xl shadow-lg border border-slate-200 p-8 hover:shadow-xl transition-shadow duration-300">
+      <div className="bg-white rounded-xl shadow-lg border border-slate-200 p-8 hover:shadow-xl transition-shadow duration-300 [&_img]:rounded-lg [&_img]:shadow-md [&_img]:border [&_img]:border-slate-200 [&_img]:w-full [&_img]:max-w-2xl [&_img]:mx-auto [&_img]:my-6">
         <MarkdownRenderer content={contentWithImage} />
       </div>
     </section>

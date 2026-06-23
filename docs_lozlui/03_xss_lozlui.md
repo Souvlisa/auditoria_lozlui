@@ -1,4 +1,4 @@
-# Informe de Auditoría: Vulnerabilidad Cross-Site Scripting (XSS Reflejado)
+# Análisis de Vulnerabilidad: Cross-Site Scripting (XSS Reflejado)
 
 <div style="text-align:justify">
 

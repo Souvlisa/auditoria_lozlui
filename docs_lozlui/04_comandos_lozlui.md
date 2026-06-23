@@ -1,4 +1,4 @@
-# Informe de Auditoría: Vulnerabilidad de Inyección de Comandos (Command Injection)
+# Análisis de Vulnerabilidad: Inyección de Comandos (Command Injection)
 
 <div style="text-align:justify">
 
