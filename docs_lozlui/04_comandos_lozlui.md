@@ -29,6 +29,8 @@ Dimensionando el riesgo de esta vulnerabilidad bajo el estándar CVSS v3.1:
 * **Puntaje Base:** **10.0**
 * **Severidad:** **CRÍTICA**
 
+![Inyección de Comandos](img_lozlui/comandos_cvss_lozlui.png)
+
 **Justificación de la métrica:**
 El ataque es explotable remotamente por internet (`AV:N`), no requiere condiciones de red complejas (`AC:L`), ni de una cuenta registrada (`PR:N`) o interacción de terceros (`UI:N`). El alcance cambia dramáticamente (`S:C`) porque el ataque salta del entorno delimitado de la aplicación web a comprometer la infraestructura subyacente (el sistema operativo). Al permitir la ejecución de cualquier orden con los privilegios del servicio web, el atacante puede leer todo (Confidencialidad), modificar todo (Integridad) y destruir el servidor (Disponibilidad), obteniendo la máxima puntuación en estos tres pilares (`C:H/I:H/A:H`).
 

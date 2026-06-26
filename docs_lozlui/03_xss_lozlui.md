@@ -31,6 +31,8 @@ Evaluando el impacto bajo el estándar CVSS v3.1:
 * **Puntaje Base:** **6.1**
 * **Severidad:** **MEDIA**
 
+![Evidencia XSS](img_lozlui/xss_cvss_lozlui.png)
+
 **Justificación de la métrica:**
 El ataque se ejecuta a través de la red (`AV:N`) con baja complejidad (`AC:L`) y sin requerir privilegios o autenticación previa (`PR:N`). Sin embargo, a diferencia del SQLi, el XSS reflejado **requiere interacción del usuario** (`UI:R`), ya que la víctima debe hacer clic en el enlace manipulado. El alcance cambia (`S:C`) porque el ataque vulnera el navegador del cliente y no la infraestructura del servidor de Aguas Claras. Esto impacta parcialmente la confidencialidad (posible robo de sesión) y la integridad (modificación visual de la web o redirección) (`C:L/I:L`), pero no afecta la disponibilidad del portal (`A:N`).
 

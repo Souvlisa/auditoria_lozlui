@@ -1,10 +1,11 @@
 import { Terminal } from 'lucide-react'
 import MarkdownRenderer from './MarkdownRenderer'
 import md from '../../docs_lozlui/04_comandos_lozlui.md?raw'
-import comandos_img from '../../docs_lozlui/img_lozlui/comandos_lozlui.png'
+import comandosImg from '../../docs_lozlui/img_lozlui/comandos_lozlui.png'
+import comandosCvssImg from '../../docs_lozlui/img_lozlui/comandos_cvss_lozlui.png'
 
 export default function Comandos() {
-  const contentWithImage = md.replace('img_lozlui/comandos_lozlui.png', comandos_img);
+  const contentWithImage = md.replace('img_lozlui/comandos_lozlui.png', comandosImg).replace('img_lozlui/comandos_cvss_lozlui.png', comandosCvssImg);
   return (
     <section className="w-full animate-in">
       <div className="flex items-center gap-3 mb-6">

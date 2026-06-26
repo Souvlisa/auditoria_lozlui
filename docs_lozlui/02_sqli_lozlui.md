@@ -34,6 +34,8 @@ Utilizando el estándar de la industria (Common Vulnerability Scoring System v3.
 * **Puntaje Base:** **9.8**
 * **Severidad:** **CRÍTICA**
 
+![SQLi](img_lozlui/sqli_cvss_lozlui.png)
+
 **Justificación de la métrica:**
 Es un ataque que se lanza remotamente por internet (`AV:N`), de complejidad baja (`AC:L`), que no requiere usuario ni contraseña previa (`PR:N`) y no necesita que la víctima interactúe (`UI:N`). Al permitir la extracción, alteración (modificar cuentas de agua) y posible destrucción de las bases de datos de clientes, el impacto en Confidencialidad, Integridad y Disponibilidad es total (`C:H/I:H/A:H`).
 

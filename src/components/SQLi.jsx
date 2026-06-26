@@ -2,9 +2,10 @@ import { Database } from 'lucide-react'
 import MarkdownRenderer from './MarkdownRenderer'
 import md from '../../docs_lozlui/02_sqli_lozlui.md?raw'
 import sqliImage from '../../docs_lozlui/img_lozlui/sqli_lozlui.png'
+import sqliCvssImage from '../../docs_lozlui/img_lozlui/sqli_cvss_lozlui.png'
 
 export default function SQLi() {
-  const contentWithImage = md.replace('img_lozlui/sqli_lozlui.png', sqliImage);
+  const contentWithImage = md.replace('img_lozlui/sqli_lozlui.png', sqliImage).replace('img_lozlui/sqli_cvss_lozlui.png', sqliCvssImage);
 
   return (
     <section className="w-full animate-in">
