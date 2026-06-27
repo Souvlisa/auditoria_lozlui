@@ -8,6 +8,7 @@ import Activos from './components/Activos'
 import Matriz from './components/Matriz'
 import Controles from './components/Controles'
 import Recuperacion from './components/Recuperacion'
+import Prompts from './components/Prompts'
 
 function App() {
   const sections = [
@@ -19,6 +20,7 @@ function App() {
     { key: 'matriz', label: 'Matriz de Riesgos', component: Matriz },
     { key: 'controles', label: 'Controles', component: Controles },
     { key: 'recuperacion', label: 'Recuperación', component: Recuperacion },
+    { key: 'prompts', label: 'Prompts', component: Prompts },
   ]
 
   const [active, setActive] = useState(sections[0].key)

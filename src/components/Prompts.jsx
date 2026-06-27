@@ -1,7 +1,7 @@
 import React from 'react'
 import { FileText } from 'lucide-react'
 import MarkdownRenderer from './MarkdownRenderer'
-import md from '../../docs_lozlui/08_prompts_lozlui.md?raw'
+import md from '../../docs_lozlui/09_prompts_lozlui.md?raw'
 
 export default function Prompts() {
   return (
