@@ -98,7 +98,7 @@ function App() {
           </div>
 
           <a
-            href="https://github.com/Souvlisa"
+            href="https://github.com/Souvlisa/auditoria_lozlui"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Contacto en GitHub"
